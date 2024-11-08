@@ -1,0 +1,8 @@
+npm i ts-node-dev
+tsc --init
+npm i typescript -g
+npm i ts-node-dev
+ts-node-dev --respawn --transpile-only server.ts => server.ts is file name
+tsc index.ts =>file name.js 
+change in tsconfig.json "outDir": "./dist"
+outDir is folder name
