@@ -29,5 +29,4 @@ const MyFriend = ["sakib", "rakib", "rakibul", "rakibul islam"];
 const MyNewFriend = ["sakib", "rakib", "rakibul", "rakibul islam"];
 const MyNewFriend2 = [...MyFriend, ...MyNewFriend];
 console.log(MyNewFriend2);
-
-MyNewFriend2.forEach((friend) => console.log(friend));
+// array of objects

@@ -6,3 +6,5 @@ ts-node-dev --respawn --transpile-only server.ts => server.ts is file name
 tsc index.ts =>file name.js 
 change in tsconfig.json "outDir": "./dist"
 outDir is folder name
+
+start server.ts => npx ts-node-dev .\src\server.ts
