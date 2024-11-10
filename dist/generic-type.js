@@ -1,5 +1,8 @@
 "use strict";
-// Define a generic array type that can hold elements of any type T
+const relation = ["hello", "world"];
+// console.log(relation);
+const relationWithSalary = [{ "name": "john", "age": 25 }, 'salary:10000'];
+console.log(relationWithSalary);
 // Array of numbers using regular array syntax
 const rollNumberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(rollNumberArray);
