@@ -1,8 +1,10 @@
+
 type genericArray<T> = Array<T>;
 
 // Define a generic array type that can hold elements of any type T
 
 type genericTuple<X, Y> = [X, Y];
+
 
 const relation: genericTuple<string, string> = ["hello", "world"];
 
@@ -16,7 +18,7 @@ const relationWithSalary: genericTuple<{name:string,age:number}, string> = [ //w
   },
   "salary:10000",
 ];
-console.log(relationWithSalary);
+console.log(relationWithSalary)
 
 // Array of numbers using regular array syntax
 const rollNumberArray: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -24,6 +26,7 @@ console.log(rollNumberArray);
 
 // Array of numbers using generic array type
 const rollNumberArray2: genericArray<number> = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
 console.log(rollNumberArray2);
 
 // Array of strings using generic array type
