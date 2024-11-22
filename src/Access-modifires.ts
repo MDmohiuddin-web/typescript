@@ -40,3 +40,5 @@ const account = new BankAccount(1, "John Doe", 1000);
 // account.balance = 2000; //is not accessible from outside this is private by default is public
 console.log(account);
 
+
+
